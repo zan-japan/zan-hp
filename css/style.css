@@ -3,7 +3,7 @@ html, body {
 }
 
 #wrapper {
-  background-image: url("");
+  background-image: url("../img/site_bg.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -12,7 +12,10 @@ html, body {
 /* header */
 header {
   position: fixed;
+  top: 0;
+  left: 0;
   color: #fff;
+  background: #fff;
   width: 100%;
   height: 60px;
 }
@@ -33,6 +36,7 @@ header {
 
   }
     nav ul {
+
       margin: 0;
     }
       nav ul li {
