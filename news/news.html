@@ -3,46 +3,107 @@
 <head>
 <meta charset="utf-8">
 <title>ZAN公式HP</title>
-<link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./css/news.css">
-<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery.min.js"></script>
 </head>
 <body>
 <div id="wrapper">
   <header>
-    <div id="logo">logo</div>
+    <div id="logo">
+      <a href="../index.html"><img src="../img/zan-inc.png"></a>
+    </div>
     <nav>
       <ul>
-        <li>会社概要</li>
-        <li>チーム</li>
-        <li>代表者挨拶</li>
-        <li>お知らせ</li>
-        <li>お問い合わせ</li>
+        <li id="about_us">
+          <a href="../team.html">
+            <i class="fa fa-users"></i>
+              About us
+          </a>
+        </li>
+        <li id="ceo">
+          <a href="../ceo.html">
+            <i class="fa fa-street-view"></i>
+            CEO message
+          </a>
+        </li>
+        <li id="news">
+          <a href="./news.html">
+            <i class="fa fa-file-text-o"></i>
+            News
+          </a>
+        </li>
+        <li id="contact">
+          <a href="../contact.html">
+            <i class="fa fa-phone"></i>
+            Contact
+          </a>
+        </li>
       </ul>
     </nav>
   </header>
 
   <div id="container">
+    <div id="subpage_main">
+      <div id="page_title">
+        <h1>お知らせ</h1>
+      </div>
 
+      <div id="page_contents">
+        <div class="news">
+          <div class="news-date">2015/08/20</div>
+          <div class="news-text"><a href="">news text news text</a></div>
+        </div>
+        <div class="news">
+          <div class="news-date">2015/08/20</div>
+          <div class="news-text"><a href="">news text news text</a></div>
+        </div>
+        <div class="news">
+          <div class="news-date">2015/08/20</div>
+          <div class="news-text"><a href="">news text news text</a></div>
+        </div>
+        <div class="news">
+          <div class="news-date">2015/08/20</div>
+          <div class="news-text"><a href="">news text news text</a></div>
+        </div>
+        <div class="news">
+          <div class="news-date">2015/08/20</div>
+          <div class="news-text"><a href="">news text news text</a></div>
+        </div>
+        <div class="news">
+          <div class="news-date">2015/08/20</div>
+          <div class="news-text"><a href="">news text news text</a></div>
+        </div>
+        <div class="news">
+          <div class="news-date">2015/08/20</div>
+          <div class="news-text"><a href="">news text news text</a></div>
+        </div>
+        <div class="news">
+          <div class="news-date">2015/08/20</div>
+          <div class="news-text"><a href="">news text news text</a></div>
+        </div>
+      </div>
 
-<!-- ここが中央揃えされるやつ -->
-
+    </div>
   </div><!-- contaner -->
 
 <!-- ###### footer ###### -->
   <footer>
     <div id="footer-contents">
       <div class="footer-box">
-        link
+        お問い合わせ<br>
+        お知らせ<br>
+      </div>
+      <div class="footer-box sns">
+        facebook<br>
+        twitter<br>
       </div>
       <div class="footer-box">
-        sns
-      </div>
-      <div class="footer-box">
-        zan
+        株式会社ZAN
       </div>
     </div><!-- #footer-contents -->
-    <div id="copyright">Copy Right ZAN</div>
+    <div id="copyright">Copyright ©ZAN All rights reserved.</div>
   </footer>
 
 </div><!-- #wrapper -->

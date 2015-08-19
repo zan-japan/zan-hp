@@ -165,3 +165,31 @@ footer {
     border-top: solid 1px #fff;
     background: #000;
   }
+
+
+/*  news.html  */
+#subpage_main {
+  padding: 20px 0 100px 0;
+}
+  #subpage_main h1 {
+    font-size: 50px;
+  }
+#page_contents {
+  background: #ddd;
+  padding: 30px;
+  border-radius: 5px;
+}
+  #page_contents .news {
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+    border-bottom: solid 2px #ccc;
+  }
+    .news-date {
+      float: left;
+      padding: 10px 20px 0 30px;
+    }
+    .news-text {
+      float: left;
+      padding: 10px 0 0 50px;
+    }
