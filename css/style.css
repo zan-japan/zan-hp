@@ -169,7 +169,7 @@ footer {
 
 /*  news.html  */
 #subpage_main {
-  padding: 20px 0;
+  padding: 20px 0 100px 0;
 }
   #subpage_main h1 {
     font-size: 50px;
