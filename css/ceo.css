@@ -1,12 +1,6 @@
-#subpage_main {
-  width: 800px;
-  height: 600px;
-  margin: 0 auto;
-}
 #subpage_main h1 {
   font-size: 50px;
 }
-
 #page_title {
   width: 100%;
   height: 70px;
@@ -27,16 +21,12 @@
   padding-left: 20px;
   margin: 0 auto;
 }
-#page-contents {
-  width: 700px;
+#ceo-contents {
+  width: 1080px;
   height: 300px;
-  background: none;
   padding: 30px;
-  border-left: solid 5px #000;
   border-radius: 10px 10px 10px 10px;
   background: #ddd;
-  margin-left: auto;
-  margin-right: auto;
 }
 .colum-left {
   width: 300px;
