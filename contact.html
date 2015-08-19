@@ -3,26 +3,49 @@
   <head>
     <meta charset="utf8">
     <title>お問い合わせ</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
   <!--
-  from
-    action: どこに送るか？
-
 -->
-  <article >
-    <h1>お問い合わせ<h1>
+  <section>
+    <h1>お問い合わせ</h1>
     <form action="" method="post">
-      <p>お名前　　　　<input type="text" name="name"> </p>
-      <p>フリガナ　　　<input type="text" name="rubi"> </p>
-      <p>住所　　　　　<input type="text" name="ad"> </p>
-      <p>メールアドレス<input type="text" name="mail"> </p>
-      <p>お問い合わせ内容:</p>
-      <textarea name="freeans" rows="4" cols="40"> </textarea>
-      <p><input type="submit" value="送信"> </p>
+      <table>
+        <tr>
+            <td>
+              <label for="namae" accesskey="n">お名前：</label>
+            </td>
+            <td>
+              <input type="text" name="name" id="namae"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <label for="namae" accesskey="n">フリガナ：</label>
+
+            </td>
+            <td>
+              <input type="text" name="name" id="namae"><br>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <label for="namae" accesskey="n">mail：</label>
+            </td>
+            <td>
+              <input type="text" name="name" id="namae"><br>
+            </td>
+        </tr>
+      </table>
+
+      <label for="namae" accesskey="n">お問い合わせ：(ご自由にお書き下さい)</label><br>
+      <textarea name="freeans" rows="4" cols="40"> </textarea><br>
+      <input type="submit" value="送信">
 
     </form>
-  </article>
+  </section>
 
   </body>
 </html>
