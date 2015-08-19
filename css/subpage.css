@@ -1,30 +1,40 @@
-#subpage-header {
-  width: 200px;
-  height: 50px;
-  background: blue;
+#subpage_main {
+  width: 800px;
+  height: 900px;
+  margin: 0 auto;
+  padding: 50px;
+  background: #eee;
 }
-#subpage-main {
-  width: 1080px;
-  height: 600px;
-  background: yellow;
+#subpage_main h1 {
+  font-size: 50px;
+}
+#subpage_main h2 {
+  font-size: 25px;
+}
+#colum_title {
+  width: auto;
+  height: 70px;
+  margin: 0 auto;
+  background: #ccc;
 }
 .colum-box {
   width: 700px;
   height: 300px;
   background: skyblue;
+  padding: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 .colum-left {
   width: 300px;
-  height: 200px;
+  height: 300px;
   float: left;
-  background: orange;
+  background: #66f;
 }
 .colum-right {
   width: 300px;
-  height: 200px;
-  margin-left: 50px;
+  height: 300px;
+  margin-left: 100px;
   float: left;
-  background: green;
+  background: #66f;
 }
