@@ -2,16 +2,17 @@
   width: 800px;
   height: 900px;
   margin: 0 auto;
-  padding: 50px;
-  background: #eee;
+  background: blue;
 }
 #subpage_main h1 {
   font-size: 50px;
 }
 #subpage_main h2 {
+  width: 300px;
   font-size: 25px;
+  background: #666;
 }
-#colum_title {
+#page_title {
   width: auto;
   height: 70px;
   margin: 0 auto;
@@ -20,7 +21,7 @@
 .colum-box {
   width: 700px;
   height: 300px;
-  background: skyblue;
+  background: #bbb;
   padding: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -29,12 +30,12 @@
   width: 300px;
   height: 300px;
   float: left;
-  background: #66f;
+  background: #aaa;
 }
 .colum-right {
   width: 300px;
   height: 300px;
   margin-left: 100px;
   float: left;
-  background: #66f;
+  background: #aaa;
 }
