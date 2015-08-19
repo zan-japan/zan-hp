@@ -3,23 +3,45 @@
 <head>
 <meta charset="utf-8">
 <title>ZAN公式HP</title>
+<link rel="stylesheet" type="text/css" href="./css/reset.css">
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="./css/ceo.css">
-<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script src="js/function.js"></script>
 </head>
 <body>
 <div id="wrapper">
   <header>
     <div id="logo">
-      <a href=""><img src="./img/zan-inc.png"></a>
+      <a href="./index.html"><img src="./img/zan-inc.png"></a>
     </div>
     <nav>
       <ul>
-        <li><a href="">会社概要</a></li>
-        <li><a href="">チーム</a></li>
-        <li><a href="">代表者挨拶</a></li>
-        <li><a href="">お知らせ</a></li>
-        <li><a href="">お問い合わせ</a></li>
+        <li id="about_us">
+          <a href="./team.html">
+            <i class="fa fa-users"></i>
+              About us
+          </a>
+        </li>
+        <li id="ceo">
+          <a href="./ceo.html">
+            <i class="fa fa-street-view"></i>
+            CEO message
+          </a>
+        </li>
+        <li id="news">
+          <a href="./news/news.html">
+            <i class="fa fa-file-text-o"></i>
+            News
+          </a>
+        </li>
+        <li id="contact">
+          <a href="./contact.html">
+            <i class="fa fa-phone"></i>
+            Contact
+          </a>
+        </li>
       </ul>
     </nav>
   </header>
@@ -51,23 +73,24 @@
     </div>
   </div><!-- contaner -->
 
-<!-- ###### footer ###### -->
-  <footer>
-    <div id="footer-contents">
-      <div class="footer-box">
-        お問い合わせ<br>
-        お知らせ<br>
-      </div>
-      <div class="footer-box sns">
-        facebook<br>
-        twitter<br>
-      </div>
-      <div class="footer-box">
-        株式会社ZAN
-      </div>
-    </div><!-- #footer-contents -->
-    <div id="copyright">Copy Right ZAN</div>
-  </footer>
-</div><!-- #wrapper -->
-</body>
-</html>
+  <!-- ###### footer ###### -->
+    <footer>
+      <div id="footer-contents">
+        <div class="footer-box">
+          お問い合わせ<br>
+          お知らせ<br>
+        </div>
+        <div class="footer-box sns">
+          facebook<br>
+          twitter<br>
+        </div>
+        <div class="footer-box">
+          株式会社ZAN
+        </div>
+      </div><!-- #footer-contents -->
+      <div id="copyright">Copyright ©ZAN All rights reserved.</div>
+    </footer>
+
+  </div><!-- #wrapper -->
+  </body>
+  </html>
