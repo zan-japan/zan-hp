@@ -9,6 +9,33 @@ $(function () {
      }
    );
 
+   $('#ceo').hover(
+     function() {
+       $('#descripion > img').attr("src","./img/ceo.jpg");
+     },
+     function() {
+       $('#descripion > img').attr("src","./img/zan-oda.png");
+     }
+   );
+
+   $('#news').hover(
+     function() {
+       $('#descripion > img').attr("src","./img/news.jpg");
+     },
+     function() {
+       $('#descripion > img').attr("src","./img/zan-oda.png");
+     }
+   );
+
+   $('#contact').hover(
+     function() {
+       $('#descripion > img').attr("src","./img/ceo.jpg");
+     },
+     function() {
+       $('#descripion > img').attr("src","./img/zan-oda.png");
+     }
+   );
+
 
   // イベントについて
   $('a[href^="#"]').on('click', function() {
