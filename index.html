@@ -3,9 +3,11 @@
 <head>
 <meta charset="utf-8">
 <title>ZAN公式HP</title>
-<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+<link rel="stylesheet" type="text/css" href="./css/reset.css">
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script src="js/function.js"></script>
 </head>
 <body>
 <div id="wrapper">
@@ -15,56 +17,80 @@
     </div>
     <nav>
       <ul>
-        <li><a href="">会社概要</a></li>
-        <li><a href="">チーム</a></li>
-        <li><a href="">代表者挨拶</a></li>
-        <li><a href="">お知らせ</a></li>
-        <li><a href="">お問い合わせ</a></li>
+        <li id="about_us">
+          <a href="./team.html">
+            <i class="fa fa-users"></i>
+              About us
+          </a>
+        </li>
+        <li id="ceo">
+          <a href="./ceo.html">
+            <i class="fa fa-street-view"></i>
+            CEO message
+          </a>
+        </li>
+        <li id="news">
+          <a href="./news/news.html">
+            <i class="fa fa-file-text-o"></i>
+            News
+          </a>
+        </li>
+        <li id="contact">
+          <a href="./contact.html">
+            <i class="fa fa-phone"></i>
+            Contact
+          </a>
+        </li>
       </ul>
     </nav>
   </header>
 
   <div id="container">
-    <div id="description">
-      <img src="./img/zan-oda.png" width="100%" height="100%">
+    <div id="descripion">
+      <img src="./img/zan-oda.png" width="100%" height="350px">
     </div><!-- #description -->
 
     <div id="purposes">
       <div class ="purpose">
         <div class="purpose-body">
-          <br>
-          <p>新しい婚活サービスをお求めの方</p>
-          <br>
-          <i class="fa fa-heart-o fa-5x"></i>
+          <a href="#content_1">
+            <br>
+            <p>新しい婚活サービスをお求めの方</p>
+            <br>
+            <i class="fa fa-heart-o fa-5x"></i>
+          </a>
         </div>
       </div>
       <div class ="purpose">
         <div class="purpose-body">
+          <a href="#content_2">
           <br>
-          <p>投資をお考えの方へ</p>
-          <br>
-          <i class="fa fa-jpy fa-5x"></i>
+            <p>投資をお考えの方へ</p>
+            <br>
+            <i class="fa fa-jpy fa-5x"></i>
+          </a>
         </div>
       </div>
       <div class ="purpose">
         <div class="purpose-body">
-          <br>
-          <p>地域を活性化したい地方団体の方</p>
-          <br>
-          <i class="fa fa-users fa-5x"></i>
+          <a href="#content_3">
+            <br>
+            <p>地域を活性化したい地方団体の方</p>
+            <br>
+            <i class="fa fa-user-plus fa-5x"></i>
+          </a>
         </div>
       </div>
     </div>
 
     <div id="contents">
-      <div class="content">
-
+      <div class="content" id="content_1">
       </div><!-- .content -->
-      <div class="content">
-
+      <div class="content" id="content_2">
+        content2
       </div><!-- .content -->
-      <div class="content">
-
+      <div class="content" id="content_3">
+        content3
       </div><!-- .content -->
 
     </div><!-- #contets -->

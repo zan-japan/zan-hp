@@ -1,0 +1,39 @@
+$(function () {
+
+   $('#about_us').hover(
+     function() {
+       $('#descripion > img').attr("src","./img/news.jpg");
+     },
+     function() {
+       $('#descripion > img').attr("src","./img/zan-oda.png");
+     }
+   );
+
+
+  // イベントについて
+  $('a[href^="#"]').on('click', function() {
+    //移動完了までの時間(ms)を指定
+    var speed = 500;
+
+    var href= $(this).attr('href');
+    var target;
+    if (href === '#' || href === '') {
+      target = $('html');
+    } else {
+      target = $(href);
+    }
+
+    var position = target.offset().top;
+
+    // アニメーション
+    $('html, body').stop().animate(
+      {
+        scrollTop: position
+      },
+      speed,
+      'swing'
+    );
+
+    return false;
+  });
+});

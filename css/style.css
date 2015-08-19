@@ -8,6 +8,15 @@ html, body {
   background-attachment: fixed;
 }
 
+#test {
+  height:150px;
+  width: 450px;
+  background: #ccc;
+  border-right: 8px solid #333;
+  border-bottom: 8px solid #333;
+  margin-top: 40px;
+  border-radius: 30px 30px;
+}
 
 /* header */
 header {
@@ -23,26 +32,23 @@ header {
     float: left;
     width: 15%;
     height: 100%;
+    padding-right: 50px;
   }
     #logo img {
       width: 100%;
       height: 100%;
     }
   nav {
-    width: 85%;
+    width: 100%;
     height: 100%;
-    float: left;
     background: #fff;
-
   }
     nav ul {
-
-      margin: 0;
     }
       nav ul li {
         display: inline;
         display: table-cell;
-        width: 150px;
+        width: 170px;
         height: 60px;
         margin: 0 auto;
         padding: 0px 30px;
@@ -57,20 +63,28 @@ header {
         nav ul li a:visited{
           color: #000;
         }
-      nav ul li:hover {
-        height: 100%;
-        background: #000;
-      }
-      nav ul li:hover a:visited {
-        height: 100%;
-        color: #fff;
-        background: #000;
-      }
+        nav ul li a:link{
+          color: #000;
+        }
+        nav ul li:hover {
+          height: 100%;
+          background: #333;
+        }
+        nav ul li:hover a:visited {
+          height: 100%;
+          color: #fff;
+          background: #333;
+        }
+        nav ul li:hover a:link {
+          height: 100%;
+          color: #fff;
+          background: #333;
+        }
 
 #container {
   margin: 0 auto;
   width: 1080px;
-  padding-top: 70px;
+  padding-top: 120px;
 }
   #description {
     height: 350px;
@@ -90,12 +104,26 @@ header {
       padding: 10px 0;
       border-radius: 60px 60px;
     }
+    .purpose a {
+      display: block;
+      text-decoration: none;
+    }
+    .purpose a:link {
+      color: #000;
+    }
     .purpose:hover {
-      background: #000;
+      background: #333;
+    }
+    .purpose a:hover {
+      background: #333;
+      color: #fff;
+    }
+    .purpose:hover a:link {
       color: #fff;
     }
       .purpose-body {
         width: 80%;
+        height: 100%;
         padding-top: 10px;
         margin: 0 auto;
       }
@@ -104,9 +132,11 @@ header {
     .content {
       height: 800px;
       text-align: center;
-      margin: 100px 0;
-      border: solid 1px #fff;
       background: #fff;
+      margin-bottom: 150px;
+      border: solid 1px #fff;
+      border-radius: 20px 20px;
+      padding: 20px;
     }
 
 footer {
