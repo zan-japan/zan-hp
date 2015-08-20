@@ -1,21 +1,19 @@
-.colum-title {
-  width: auto;
-  height: auto;
+.colum-title h2 {
   font-size: 25px;
+  padding-top: 5px;
   padding-left: 20px;
-  background: none;
-  margin: 0 auto;
 }
-.colum-paragraph {
-  width: auto;
-  height: auto;
+.colum-paragraph p {
+  padding-top: 5px;
   padding-left: 20px;
-  margin: 0 auto;
 }
 .team-box {
-  width: 900px;
+  width: 800px;
   height: 300px;
-  margin-top: 20px;
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  margin: 40px auto;
+  background: #ccc;
 }
 .team-colum-left {
   width: 400px;
@@ -23,7 +21,6 @@
   float: left;
   padding-left: 50px;
   border-radius: 10px 10px 10px 10px;
-  background: #ccc;
 }
 .team-colum-right {
   width: 400px;
@@ -31,12 +28,10 @@
   float: left;
   padding-left: 50px;
   border-radius: 10px 10px 10px 10px;
-  background: #ccc;
 }
 .team-img-left {
   width: 300px;
   height: 300px;
-  background: orange;
   float: left;
   border-radius: 10px 10px 10px 10px;
   padding-left: 10px;
@@ -44,23 +39,29 @@
 .team-img-right {
   width: 300px;
   height: 300px;
-  background: orange;
   float: left;
   border-radius: 10px 10px 10px 10px;
   padding-right: 10px;
+  position: absolute;
+  left: 490px;
 }
 .team-img-right:nth-child(1){
-  width: 300px;
-  height: 300px;
   background-image: url(../img/team-oda.jpg);
 }
 .team-img-left:nth-child(1) {
-  width: 300px;
-  height: 300px;
   background-image: url(../img/team-oda.jpg);
 }
 .team-img-right:nth-child(2) {
-  width: 300px;
-  height: 300px;
   background-image: url(../img/team-oda.jpg);
+}
+.campany-title {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+.campany-paragraph {
+  text-align: center;
+  padding-top: 5px;
+  margin: 0 auto;
 }
