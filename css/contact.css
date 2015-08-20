@@ -9,8 +9,16 @@ td {
 
 input {
   display: block;
-  width: 30%;
+  width: 70%;
   margin: 0 auto;
+  border-radius: 10px 10px;
+}
+
+textarea {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px 10px;
 }
 
 .input-title {
