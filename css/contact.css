@@ -1,5 +1,6 @@
 table {
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 td {
@@ -7,11 +8,32 @@ td {
   border: 1px solid #aaa;
 }
 
-input {
+input, button, textarea, select {
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.input-area {
+  background: #fff;
   display: block;
   width: 70%;
   margin: 0 auto;
   border-radius: 10px 10px;
+  border:0;
+  border:0;
+}
+
+.input-area:focus {
+  border:solid 3px #8cf;
+  border-radius: 10px 10px;
+  font-size: 16px;
 }
 
 textarea {
@@ -19,6 +41,7 @@ textarea {
   width: 70%;
   margin: 0 auto;
   border-radius: 10px 10px;
+
 }
 
 .input-title {
@@ -30,7 +53,10 @@ textarea {
 
 #submit {
   text-align: center;
-  padding-top: 20px;
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 30%;
+  background: #ccc;
 }
 
 form {
