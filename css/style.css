@@ -102,6 +102,9 @@ header {
     .purpose a:link {
       color: #000;
     }
+    .purpose a:visited {
+      color: #000;
+    }
     .purpose:hover {
       box-shadow: 0px 3px #aaa;
       margin-top: 60px;

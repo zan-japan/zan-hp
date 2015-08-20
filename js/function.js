@@ -51,7 +51,7 @@ $(function () {
     }
 
     var position = target.offset().top;
-
+    position = position - 80;
     // アニメーション
     $('html, body').stop().animate(
       {
