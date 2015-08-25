@@ -1,4 +1,4 @@
-$(function () {
+$(function() {
 
    $('#about_us').hover(
      function() {
@@ -37,12 +37,11 @@ $(function () {
    );
 
 
-  // イベントについて
   $('a[href^="#"]').on('click', function() {
     //移動完了までの時間(ms)を指定
     var speed = 500;
 
-    var href= $(this).attr('href');
+    var href = $(this).attr('href');
     var target;
     if (href === '#' || href === '') {
       target = $('html');
@@ -50,9 +49,9 @@ $(function () {
       target = $(href);
     }
 
-    var position = target.offset().top;
-    position = position - 80;
-    // アニメーション
+    var offset = -80;
+    var position = target.offset().top + offset;
+
     $('html, body').stop().animate(
       {
         scrollTop: position
