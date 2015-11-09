@@ -129,7 +129,6 @@ header {
       text-align: center;
       background: #fff;
       margin-bottom: 150px;
-      border: solid 1px #fff;
       border-radius: 20px 20px;
       box-shadow: 14px 24px #ddd;
       padding: 20px;
@@ -257,4 +256,95 @@ footer {
 }
 .news-body {
   padding: 20px 30px;
+}
+
+@media all and (max-width: 720px) {
+  #container {
+    width: 100%;
+  }
+    .purpose {
+      float: left;
+      width: 300px;
+      height: 250px;
+      background: #fff;
+      text-align: center;
+      box-shadow: 0px 10px #aaa;
+      margin: 50px 30px;
+      border-radius: 60px 60px;
+    }
+
+
+  #contents {
+    clear: both;
+  }
+    .content {
+      width: 80%;
+      box-shadow: none;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      padding: none;
+    }
+      .content .content-title {
+        font-size: 24px;
+      }
+      .content .content-body {
+        width: 80%;
+        font-size: 16px;
+        margin: 0 auto;
+      }
+
+/*******************
+      footer
+*******************/
+  #footer-contents {
+    width: 100%;
+    height: 50px;
+  }
+    .footer-box {
+      height: 100%;
+    }
+      .footer-box.sns {
+        border-left: 1px #fff solid;
+        border-right: 1px #fff solid;
+      }
+  #copyright {
+    font-size: 12px;
+  }
+
+
+/*  お知らせページ  */
+#subpage_main {
+  padding: 20px 0 100px 0;
+}
+  #subpage_main h1 {
+    font-size: 50px;
+  }
+#page_contents {
+  background: #ddd;
+  padding: 30px;
+  border-radius: 5px;
+}
+  #page_contents .news {
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+    border-bottom: solid 2px #ccc;
+  }
+    .news-date {
+      float: left;
+      padding: 10px 20px 0 30px;
+    }
+    .news-text {
+      float: left;
+      padding: 10px 0 0 50px;
+    }
+
+/* お知らせ 詳細ページ  */
+.news-title {
+  font-size: 24px;
+}
+.news-body {
+  padding: 20px 30px;
+}
+
 }
