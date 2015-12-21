@@ -1,4 +1,7 @@
 /*  お問い合わせ  */
+#subpage_main h1 {
+  font-size: 50px;
+}
 input, button, textarea, select {
 	margin: 0;
 	padding: 0;
@@ -28,7 +31,7 @@ form#contact_form {
 }
 
 .input-title {
-  width: 240px;
+  width: 340px;
   font-size: 18px;
 }
 .input-area {
@@ -40,13 +43,6 @@ form#contact_form {
   border-radius: 10px 10px;
   border:0;
 }
-
-.input-area:focus {
-  border:solid 1px #8cf;
-  border-radius: 10px 10px;
-  font-size: 16px;
-}
-
 
   #textarea_form .input-area{
     height: 120px;
@@ -60,7 +56,6 @@ form#contact_form {
   text-align: center;
   vertical-align: middle;
   background: #eee;
-  border-left: 3px solid #8cf;
   border-bottom: 2px solid #ccc;
   padding: 20px 0;
 }
@@ -69,13 +64,12 @@ form#contact_form {
   text-align: center;
   margin: 0 auto;
   padding: 10px 0;
-  width: 45%;
-  background: #8cf;
+  width: 350px;
+  background: #e4e4e4;
   border-radius: 5px;
+  box-shadow: 3px 3px #999;
+  font-size: 20px;
 }
   #submit:hover {
-    background: #6ad;
-  }
-  #submit:active {
-    background: #48b;
+    background: #ccc;
   }

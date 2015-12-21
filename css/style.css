@@ -1,6 +1,9 @@
 .phone-style {
   display: none;
 }
+#subpage_main {
+  margin-bottom: 100px;
+}
 
 html, body {
   width: 100%;
@@ -11,6 +14,12 @@ html, body {
   background-image: url("../img/site_bg.jpg");
   background-size: cover;
   background-attachment: fixed;
+}
+
+#container {
+  margin: 0 auto;
+  width: 1080px;
+  padding-top: 120px;
 }
 
 /*******************

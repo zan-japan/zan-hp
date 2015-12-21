@@ -1,11 +1,6 @@
 /* smart display none */
 
 /*  トップページ  */
-#container {
-  margin: 0 auto;
-  width: 1080px;
-  padding-top: 120px;
-}
   #description {
     height: 350px;
     width: 100%;

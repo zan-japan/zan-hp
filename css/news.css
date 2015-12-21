@@ -1,10 +1,8 @@
 /*  お知らせページ  */
-#subpage_main {
-  padding: 20px 0 100px 0;
+#subpage_main h1 {
+  font-size: 50px;
 }
-  #subpage_main h1 {
-    font-size: 50px;
-  }
+
 #page_contents {
   background: #ddd;
   padding: 30px;

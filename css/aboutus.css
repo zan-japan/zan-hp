@@ -1,4 +1,8 @@
 /*  私たちについて  */
+#subpage_main h1 {
+  font-size: 50px;
+}
+
 .colum-title h2 {
   font-size: 25px;
   padding-top: 5px;
