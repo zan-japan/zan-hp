@@ -63,4 +63,10 @@ $(function () {
 
     return false;
   });
+
+
+  $(document).ready(function() {
+    $('.drawer').drawer();
+  });
+
 });
