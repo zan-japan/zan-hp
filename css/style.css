@@ -1,3 +1,7 @@
+.phone-style {
+  display: none;
+}
+
 html, body {
   width: 100%;
   font-family: mintyo;
@@ -108,13 +112,19 @@ footer {
 
 
 @media all and (max-width: 720px) {
-/*******************
- smart phone header 
-*******************/
+  .pc-style {
+    display: none;
+  }
+  .phone-style {
+    display: block;
+  }
+  /*******************
+   smart phone header 
+  *******************/
 
-/*******************
- smart phone footer
-*******************/
+  /*******************
+   smart phone footer
+  *******************/
   #footer-contents {
     width: 100%;
     height: 50px;

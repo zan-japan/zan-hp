@@ -128,33 +128,38 @@ span.text-highlight {
 .purpose-text-smart {
   display: block;
 }
-.purpose-text-pc {
+.pc-style {
   display: none;
 }
   #container {
     width: 100%;
   }
   #purposes {
-    width: 100%;
+    width: 90%;
     height: 160px;
-    margin: 20px;
+    margin: 0 auto;
     margin-bottom: 50px;
   }
     .purpose {
       float: left;
       height: 100px;
-      width: 25%;
+      width: 30%;
       background: #fff;
       text-align: center;
       box-shadow: 0px 10px #aaa;
-      margin: 50px 3%;
-      border-radius: 60px 60px;
+      margin: 50px 1.6%;
+      border-radius: 25px 25px;
     }
       .purpose-body p {
         font-size: 1.0em;
+        margin: 5px 0;
       }
       .purpose-body i {
         margin-top: 0;
+        font-size: 2.0em;
+      }
+      .purpose-body a {
+        display: block;
       }
 
   #contents {
