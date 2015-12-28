@@ -9,16 +9,64 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <script src="js/jquery.min.js"></script>
   <script src="js/function.js"></script>
+
+  <link rel="stylesheet" href="css/lib/drawer.min.css">
+  <script src="js/lib/iscroll.min.js"></script>
+  <script src="js/lib/drawer.min.js"></script>
 </head>
-<body>
+<body class="drawer drawer--left">
 <div id="wrapper">
 
-  <header>
+  <header class="pc-style">
     <div id="logo">
       <a href="http://zan-japan.com/"><img src="./img/zan-inc.png" alt="株式会社 斬"></a>
     </div>
     <nav>
       <ul>
+        <li id="about_us">
+          <a href="./aboutus.html">
+            <i class="fa fa-users"></i>
+              About us
+          </a>
+        </li>
+        <li id="ceo">
+          <a href="./ceo.html">
+            <i class="fa fa-street-view"></i>
+            CEO message
+          </a>
+        </li>
+        <li id="news">
+          <a href="./news.html">
+            <i class="fa fa-file-text-o"></i>
+            News
+          </a>
+        </li>
+        <li id="contact">
+          <a href="./contact.html">
+            <i class="fa fa-phone"></i>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <header class="phone-style" role="banner">
+    <div id="menu">MENU</div>
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+    <nav id="phone_global_header" class="drawer-nav" role="navigation">
+      <ul>
+        <li id="top_page">
+          <a href="./index.html">
+            <i class="fa fa-home"></i>
+              TOP 
+          </a>
+        </li>
+
         <li id="about_us">
           <a href="./aboutus.html">
             <i class="fa fa-users"></i>
