@@ -73,3 +73,19 @@ form#contact_form {
   #submit:hover {
     background: #ccc;
   }
+
+@media all and (max-width: 720px) {
+  #subpage_main h1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #contact_form tr {
+    height: auto;
+  }
+  #contact_form td {
+    padding: 8px;
+    border-bottom: none;
+  }
+}

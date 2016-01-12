@@ -44,3 +44,11 @@
   background: #ddd;
   opacity: 0.95;
 }
+@media all and (max-width: 720px) {
+  #subpage_main h1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
