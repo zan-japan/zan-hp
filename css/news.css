@@ -4,7 +4,7 @@
 }
 
 #page_contents {
-  background: #ddd;
+  background: #eee;
   padding: 30px;
   border-radius: 5px;
 }
@@ -36,5 +36,16 @@
     font-size: 22px;
     font-weight: bold;
     text-align: center;
+  }
+  #page_contents {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .news {
+    padding-bottom: 20px;
+  }
+  .news-date, .news-text {
+    float: none;
+    padding: 0;
   }
 }
