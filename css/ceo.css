@@ -15,6 +15,7 @@
   padding-left: 20px;
   background: none;
   margin: 0 auto;
+  padding: 20px 0;
 }
 .colum-paragraph {
   width: auto;
@@ -27,7 +28,6 @@
   height: 300px;
   padding: 30px;
   border-radius: 10px 10px 10px 10px;
-  background: #eee;
 }
 .colum-left {
   width: 300px;
@@ -41,8 +41,7 @@
   float: left;
   margin-left: 20px;
   padding-left: 20px;
-  background: #ddd;
-  opacity: 0.95;
+  background: #eee;
 }
 @media all and (max-width: 720px) {
   #subpage_main h1 {
@@ -50,5 +49,30 @@
     font-weight: bold;
     text-align: center;
   }
+  #ceo-contents {
+    width: 90%; 
+    height: auto;
+    padding: 0;
+    border-radius: 10px 10px 10px 10px;
+    background: #eee;
+    margin: 0 auto;
+  }
+    .colum-left {
+      float: none;
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+    .colum-right {
+      float: none;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border-radius: 0 0 10px 10px;
+      text-align: center;
+    }
+      .colum-paragraph {
+        text-align: left;
+      }
+
 }
 
