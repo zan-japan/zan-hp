@@ -25,6 +25,7 @@
 
 /* お知らせ 詳細ページ  */
 .news-title {
+  text-align: center;
   font-size: 24px;
 }
 .news-body {
